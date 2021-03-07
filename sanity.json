@@ -19,11 +19,14 @@
     "autocomplete-tags",
     "dashboard-widget-netlify",
     "dashboard-widget-document-list",
-    "dashboard-widget-analytics"
+    "dashboard-widget-analytics",
+    "media",
+    "asset-source-unsplash"
   ],
   "env": {
     "development": {
       "plugins": [
+        "@andre-brdoch/sanity-plugin-schema-inspector",
         "@sanity/vision"
       ]
     }
