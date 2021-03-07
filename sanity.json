@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "threesam"
+    "name": "threeSam"
   },
   "api": {
     "projectId": "qcht0vh1",
@@ -12,7 +12,11 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "graph-view",
+    "asset-source-cloudinary",
+    "autocomplete-tags",
+    "dashboard-widget-netlify"
   ],
   "env": {
     "development": {
@@ -25,6 +29,18 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/variables.css"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure/index.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./dashboardConfig.js"
     }
   ]
 }
