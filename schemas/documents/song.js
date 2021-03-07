@@ -42,5 +42,14 @@ export default {
       type: 'file',
       title: 'Audio'
     }
-  ]
+  ],
+  preview: {
+    select: {
+      title: 'title',
+      media: 'mainImage',
+    },
+    prepare(selection) {
+      return Object.assign({}, selection)
+    },
+  },
 }

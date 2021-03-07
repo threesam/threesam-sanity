@@ -47,5 +47,15 @@ export default {
       title: 'Tags',
       type: 'tags',
     }
-  ]
+  ],
+  preview: {
+    select: {
+      title: 'title',
+      media: 'mainImage',
+    },
+    prepare(selection) {
+      const { author } = selection
+      return Object.assign({}, selection)
+    },
+  },
 }
