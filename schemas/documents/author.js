@@ -35,6 +35,17 @@ export default {
         },
       ],
     },
+    {
+      name: 'links',
+      type: 'array',
+      title: 'Links',
+      of: [
+        {
+          type: 'link',
+          name: 'link'
+        }
+      ]
+    }
   ],
   preview: {
     select: {

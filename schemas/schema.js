@@ -15,6 +15,7 @@ import song from './documents/song'
 // We import object schemas
 import blockContent from './objects/blockContent'
 import mainImage from './objects/mainImage'
+import link from './objects/link'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -35,5 +36,6 @@ export default createSchema({
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
+    link
   ]),
 })
