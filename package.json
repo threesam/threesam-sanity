@@ -37,5 +37,7 @@
     "sanity-plugin-graph-view": "^1.0.4",
     "sanity-plugin-media": "^1.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sanity/cli": "^2.6.0"
+  }
 }
