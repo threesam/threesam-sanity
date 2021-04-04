@@ -16,6 +16,11 @@ export default {
       description: 'Describe your blog for search engines and social media.'
     },
     {
+      name: 'tagLine',
+      type: 'text',
+      title: 'Tag Line',
+    },
+    {
       name: 'mainImage',
       type: 'mainImage',
       title: 'Image'
