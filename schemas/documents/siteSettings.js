@@ -35,6 +35,11 @@ export default {
       type: 'reference',
       title: 'Founder',
       to: [{ type: 'author' }]
+    },
+    {
+      name: 'resume',
+      type: 'file',
+      title: 'Resume'
     }
   ]
 }
