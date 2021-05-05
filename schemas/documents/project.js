@@ -38,6 +38,12 @@ export default {
       title: 'Repo'
     },
     {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
+    {
       name: 'caseStudy',
       title: 'Case Study',
       type: 'blockContent'
