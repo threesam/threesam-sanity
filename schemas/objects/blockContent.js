@@ -54,6 +54,11 @@ export default {
               },
             ],
           },
+          {
+            type: 'code',
+            name: 'code',
+            title: 'Code'
+          }
         ],
       },
     },
